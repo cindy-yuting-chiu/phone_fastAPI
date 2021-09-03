@@ -3,3 +3,5 @@ fastapi
 pytest
 pylint
 uvicorn[standard]
+python-multipart
+pandas
