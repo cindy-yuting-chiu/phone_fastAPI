@@ -8,8 +8,16 @@ test:
 format:
 	black *.py
 
-	
-	
-lint:
-	pylint --disable=R,C hello.py
+run:
+	python main.py
 
+run-uvicorn:
+	uvicorn main:app --reload
+
+killweb:
+	sudo killall uvicorn
+
+lint:
+	pylint --disable=R,C main.py
+
+all: install lint test
