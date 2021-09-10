@@ -24,8 +24,8 @@ async def area_code(num1: str):
 @app.get("/state/{st}")
 async def state_code(st : str):
     """Return area code for a given state """ 
-    area_code  = df.loc[df['State']== st ,['area_code']]['area_code'].unique().tolist()
-    return {'area code': area_code}
+    area_code_from_state  = df.loc[df['State']== st ,['area_code']]['area_code'].unique().tolist()
+    return {'area code': area_code_from_state}
 
 if __name__ == '__main__':
     uvicorn.run(app, port=8080, host='0.0.0.0')
