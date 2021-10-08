@@ -1,4 +1,4 @@
-# Building a small phone number check tool using FastAPI
+# Building a small phone number lookup tool using FastAPI
 This project is a demonstration of using AWS cloud tool to deploy a simple program using FastAPI framework. 
 
 ## Data 
@@ -16,4 +16,4 @@ The following is the diagram of system we used:
 <img width="924" alt="Screen Shot 2021-10-07 at 3 14 08 PM" src="https://user-images.githubusercontent.com/89810916/136485538-e54bf1be-a560-464c-941a-8960551c9045.png">
 
 ## Demo
-A quick video demonstrating how to use the application and how the application is built can be found here: 
+A quick video demonstrating how to use the application and how the application is built can be found here: https://youtu.be/3_CvAED4EBo
